@@ -15,7 +15,7 @@
             } else { 
 
         
-                fetch('http://api.openweathermap.org/data/2.5/weather?q='+inputValue.val()+'&appid=5f1f4fb2cb26ec6443130146cb91c9c0')
+                fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.val()+'&appid=5f1f4fb2cb26ec6443130146cb91c9c0')
                 .then(res => res.json())
                 .then(myData => {
 
